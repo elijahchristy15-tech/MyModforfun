@@ -1,4 +1,7 @@
 {
   "item.tutorialmod.dierald": "Dierald",
-  "item.tutorialmod.raw_dierald": "Raw Dierald"
+  "item.tutorialmod.raw_dierald": "Raw Dierald",
+
+  "block.tutorialmod.dierald_block": "Dierald Block",
+  "block.tutorialmod.raw_dierald_block": "Raw Diarald Block"
 }

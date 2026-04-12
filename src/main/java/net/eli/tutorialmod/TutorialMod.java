@@ -1,6 +1,7 @@
 package net.eli.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.eli.tutorialmod.block.ModBlocks;
 import net.eli.tutorialmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -36,6 +37,7 @@ public class TutorialMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,6 +54,10 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DIERALD);
             event.accept(ModItems.RAW_DIERALD);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.DIERALD_BLOCK);
+            event.accept(ModBlocks.RAW_DIERALD_BLOCK);
         }
     }
 
