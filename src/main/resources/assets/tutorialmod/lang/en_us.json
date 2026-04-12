@@ -3,5 +3,8 @@
   "item.tutorialmod.raw_dierald": "Raw Dierald",
 
   "block.tutorialmod.dierald_block": "Dierald Block",
-  "block.tutorialmod.raw_dierald_block": "Raw Diarald Block"
+  "block.tutorialmod.raw_dierald_block": "Raw Dierald Block",
+
+  "creativetab.tutorialmod.dierald_items": "Deirald Item Tab",
+  "creativetab.tutorialmod.dierald_block": "Dierald Block Tab"
 }
