@@ -20,11 +20,18 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> DIERALD_BLOCK = registerBlock("dierald_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST).lightLevel(state -> 10)));
 
     public static final RegistryObject<Block> RAW_DIERALD_BLOCK = registerBlock("raw_dierald_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> NEBULA_BLOCK = registerBlock("nebula_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops()));
+                    .strength(1f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST).lightLevel(state -> 12).noOcclusion()));
+
+    public static final RegistryObject<Block> NEBULA_FRAGMENT_BLOCK = registerBlock("nebula_fragment_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().lightLevel(state -> 8)));
+
 
 
 

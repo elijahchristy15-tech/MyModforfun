@@ -1,10 +1,16 @@
 {
   "item.tutorialmod.dierald": "Dierald",
   "item.tutorialmod.raw_dierald": "Raw Dierald",
+  "item.tutorialmod.nebula": "Nebula",
+  "item.tutorialmod.nebula_fragment": "Nebula Fragment",
 
   "block.tutorialmod.dierald_block": "Dierald Block",
   "block.tutorialmod.raw_dierald_block": "Raw Dierald Block",
+  "block.tutorialmod.nebula_block": "Nebula block",
+  "block.tutorialmod.nebula_fragment_block": "Nebula Fragment Block",
 
   "creativetab.tutorialmod.dierald_items": "Deirald Item Tab",
-  "creativetab.tutorialmod.dierald_block": "Dierald Block Tab"
+  "creativetab.tutorialmod.dierald_block": "Dierald Block Tab",
+  "creativetab.tutorialmod.nebula_item": "Nebula Items",
+  "creativetab.tutorialmod.nebula_block": "Nebula Block"
 }

@@ -18,6 +18,13 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_DIERALD = ITEMS.register("raw_dierald",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> NEBULA = ITEMS.register("nebula",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> NEBULA_FRAGMENT = ITEMS.register("nebula_fragment",
+            () -> new Item(new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

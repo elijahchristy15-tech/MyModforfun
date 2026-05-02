@@ -31,6 +31,22 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.RAW_DIERALD_BLOCK.get());
                     }).build());
 
+    public static final RegistryObject<CreativeModeTab> NEBULA_ITEM_TAB = CREATIVE_MODE_TABS.register("nebula_item_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.NEBULA.get()))
+                    .title(Component.translatable("creativetab.tutorialmod.nebula_item"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.NEBULA.get());
+                        output.accept(ModItems.NEBULA_FRAGMENT.get());
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> NEBULA_BLOCK_TAB = CREATIVE_MODE_TABS.register("nebula_block_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.NEBULA_BLOCK.get()))
+                    .title(Component.translatable("creativetab.tutorialmod.nebula_block"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.NEBULA_BLOCK.get());
+                        output.accept(ModBlocks.NEBULA_FRAGMENT_BLOCK.get());
+                    }).build());
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }

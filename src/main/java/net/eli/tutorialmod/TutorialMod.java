@@ -57,10 +57,14 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DIERALD);
             event.accept(ModItems.RAW_DIERALD);
+            event.accept(ModItems.NEBULA);
+            event.accept(ModItems.NEBULA_FRAGMENT);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.DIERALD_BLOCK);
             event.accept(ModBlocks.RAW_DIERALD_BLOCK);
+            event.accept(ModBlocks.NEBULA_BLOCK);
+            event.accept(ModBlocks.NEBULA_FRAGMENT_BLOCK);
         }
     }
 
