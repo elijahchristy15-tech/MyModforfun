@@ -32,6 +32,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> NEBULA_FRAGMENT_BLOCK = registerBlock("nebula_fragment_block",
             () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().lightLevel(state -> 8)));
 
+    public static final RegistryObject<Block> BLACK_HOLE_BLOCK = registerBlock("black_hole_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST).lightLevel(state -> 12).noOcclusion()));
+
 
 
 

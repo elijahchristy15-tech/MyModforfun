@@ -24,6 +24,10 @@ public class ModItems {
     public static final RegistryObject<Item> NEBULA_FRAGMENT = ITEMS.register("nebula_fragment",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BLACK_HOLE = ITEMS.register("black_hole",
+            () -> new Item(new Item.Properties()));
+
+
 
 
     public static void register(IEventBus eventBus) {
