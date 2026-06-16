@@ -4,13 +4,17 @@
   "item.tutorialmod.nebula": "Nebula",
   "item.tutorialmod.nebula_fragment": "Nebula Fragment",
   "item.tutorialmod.black_hole": "Black Hole",
+  "item.tutorialmod.sun": "Sun",
+  "item.tutorialmod.basketball": "Basketball",
 
   "block.tutorialmod.dierald_block": "Dierald Block",
   "block.tutorialmod.raw_dierald_block": "Raw Dierald Block",
   "block.tutorialmod.nebula_block": "Nebula block",
   "block.tutorialmod.nebula_fragment_block": "Nebula Fragment Block",
   "block.tutorialmod.black_hole_block": "Black Hole Block",
+  "block.tutorialmod.sun_block": "Sun Block",
 
   "creativetab.tutorialmod.dierald_items": "All Of Deirald",
-  "creativetab.tutorialmod.black_hole": "Celestial Body's"
+  "creativetab.tutorialmod.black_hole": "Celestial Body's",
+  "creativetab.tutorialmod.sport": "Sports"
 }

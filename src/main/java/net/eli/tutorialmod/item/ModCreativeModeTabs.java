@@ -34,6 +34,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.NEBULA_FRAGMENT_BLOCK.get());
                         output.accept(ModItems.BLACK_HOLE.get());
                         output.accept(ModBlocks.BLACK_HOLE_BLOCK.get());
+                        output.accept(ModItems.SUN.get());
+                        output.accept(ModBlocks.SUN_BLOCK.get());
+                    }).build());
+
+    public static final RegistryObject<CreativeModeTab> SPORT = CREATIVE_MODE_TABS.register("sport",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BASKETBALL.get()))
+                    .title(Component.translatable("creativetab.tutorialmod.sport"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.BASKETBALL.get());
                     }).build());
 
 

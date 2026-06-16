@@ -37,6 +37,10 @@ public class ModBlocks {
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST).lightLevel(state -> 12).noOcclusion()));
 
 
+    public static final RegistryObject<Block> SUN_BLOCK = registerBlock("sun_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().lightLevel(state -> 15)));
+
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

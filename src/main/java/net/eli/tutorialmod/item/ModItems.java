@@ -27,6 +27,14 @@ public class ModItems {
     public static final RegistryObject<Item> BLACK_HOLE = ITEMS.register("black_hole",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SUN = ITEMS.register("sun",
+            () -> new Item(new Item.Properties()));
+
+
+    public static final RegistryObject<Item> BASKETBALL = ITEMS.register("basketball",
+            () -> new Item(new Item.Properties()));
+
+
 
 
 

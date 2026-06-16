@@ -60,6 +60,7 @@ public class TutorialMod {
             event.accept(ModItems.NEBULA);
             event.accept(ModItems.NEBULA_FRAGMENT);
             event.accept(ModItems.BLACK_HOLE);
+            event.accept(ModItems.SUN);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.DIERALD_BLOCK);
@@ -67,13 +68,16 @@ public class TutorialMod {
             event.accept(ModBlocks.NEBULA_BLOCK);
             event.accept(ModBlocks.NEBULA_FRAGMENT_BLOCK);
             event.accept(ModBlocks.BLACK_HOLE_BLOCK);
+            event.accept(ModBlocks.SUN_BLOCK);
         }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
-    { }
+    {
+
+    }
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents
